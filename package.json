@@ -172,6 +172,5 @@
     "percy:local": "cd ../UITesting/ && npm run percy:local",
     "percy:feature-ci": "cd ../UITesting/ && npm run percy:feature-ci",
     "percy:abnahme-ci": "cd ../UITesting/ && npm run percy:abnahme-ci "
-    "build": "nyc --reporter=cobertura --reporter=html ./node_modules/.bin/mocha tests/**/*.js --reporter mocha-junit-reporter --reporter-options mochaFile=./TEST-RESULTS.xml"
   }
 }
